@@ -196,7 +196,7 @@ sort = () => {
 // ask the user how they want things sorted
 let sort = prompt("We can sort values from highest to lowest for your convenience. Would you like sorting by title, author or libraryID?");
 let results = [];
-// if sort requested is author, iterate through array then into objects. Push the author property and value to results array
+// if sort requested is author or title, iterate through array then into objects. Push the property and value to results array
 if (sort === 'author' || sort === 'title') {
 // iterate through the array
   for (let i = 0; i < library.length; i++) {
